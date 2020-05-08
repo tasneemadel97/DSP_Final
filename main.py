@@ -13,7 +13,6 @@ from scipy.io import wavfile
 import numpy as np
 from glob import glob
 from numpy import asarray
-from music import *
 import music21
 from music21 import note, stream, pitch, duration, instrument, tempo, chord
 from music21.note import Note, Rest
@@ -29,28 +28,121 @@ class ApplicationWindow(QtWidgets.QMainWindow):
         super(ApplicationWindow, self).__init__()
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
-        self.ui.drum.clicked.connect(self.Play)
-        
 
-        self.setGeometry(100, 90, 1000, 800)
+        self.ui.piano1.clicked.connect(lambda: self.PlayPiano(1))
+        self.ui.piano2.clicked.connect(lambda: self.PlayPiano(2))
+        self.ui.piano3.clicked.connect(lambda: self.PlayPiano(3))
+        self.ui.piano4.clicked.connect(lambda: self.PlayPiano(4))
+        self.ui.piano5.clicked.connect(lambda: self.PlayPiano(5))
+        self.ui.piano6.clicked.connect(lambda: self.PlayPiano(6))
+        self.ui.piano7.clicked.connect(lambda: self.PlayPiano(7))
+        
+    
 
     
-    def Play(self):
+    def PlayPiano(self, n):
 
-        n = Note("A2", type='whole')
+        if( n==1):
 
-        drumPart = stream.Part()
-        drumPart.insert(0, instrument.BassDrum())
+            n = Note("C----", type='whole')
 
-        drumMeasure = stream.Measure()
-        drumMeasure.append(n)
-        drumPart.append(drumMeasure)
+            PianoPart = stream.Part()
+            PianoPart.insert(0, instrument.Piano())
+
+            pianoMeasure = stream.Measure()
+            pianoMeasure.append(n)
+            PianoPart.append(pianoMeasure)
 
 
-        sp = midi.realtime.StreamPlayer(drumPart)
-        sp.play()
+            sp = midi.realtime.StreamPlayer(PianoPart)
+            sp.play()
 
+        if( n==2):
+
+            n = Note("D--", type='whole')
+
+            PianoPart = stream.Part()
+            PianoPart.insert(0, instrument.Piano())
+
+            pianoMeasure = stream.Measure()
+            pianoMeasure.append(n)
+            PianoPart.append(pianoMeasure)
+
+
+            sp = midi.realtime.StreamPlayer(PianoPart)
+            sp.play()
+
+        if( n==3):
+
+            n = Note("F--", type='whole')
+
+            PianoPart = stream.Part()
+            PianoPart.insert(0, instrument.Piano())
+
+            pianoMeasure = stream.Measure()
+            pianoMeasure.append(n)
+            PianoPart.append(pianoMeasure)
+
+            sp = midi.realtime.StreamPlayer(PianoPart)
+            sp.play()
    
+        if( n==4):
+
+            n = Note("G--", type='whole')
+
+            PianoPart = stream.Part()
+            PianoPart.insert(0, instrument.Piano())
+
+            pianoMeasure = stream.Measure()
+            pianoMeasure.append(n)
+            PianoPart.append(pianoMeasure)
+
+            sp = midi.realtime.StreamPlayer(PianoPart)
+            sp.play()
+
+
+        if( n==5):
+
+            n = Note("A--", type='whole')
+
+            PianoPart = stream.Part()
+            PianoPart.insert(0, instrument.Piano())
+
+            pianoMeasure = stream.Measure()
+            pianoMeasure.append(n)
+            PianoPart.append(pianoMeasure)
+
+            sp = midi.realtime.StreamPlayer(PianoPart)
+            sp.play()
+
+        if( n==6):
+
+            n = Note("B#4", type='whole')
+
+            PianoPart = stream.Part()
+            PianoPart.insert(0, instrument.Piano())
+
+            pianoMeasure = stream.Measure()
+            pianoMeasure.append(n)
+            PianoPart.append(pianoMeasure)
+
+            sp = midi.realtime.StreamPlayer(PianoPart)
+            sp.play()
+
+
+        if( n==7):
+
+            n = Note("B#6", type='whole')
+
+            PianoPart= stream.Part()
+            PianoPart.insert(0, instrument.Piano())
+
+            pianoMeasure = stream.Measure()
+            pianoMeasure.append(n)
+            PianoPart.append(pianoMeasure)
+
+            sp = midi.realtime.StreamPlayer(PianoPart)
+            sp.play()
 
 
   

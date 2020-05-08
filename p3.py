@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'p3.ui'
 #
-# Created by: PyQt5 UI code generator 5.14.1
+# Created by: PyQt5 UI code generator 5.13.0
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -23,101 +23,87 @@ class Ui_MainWindow(object):
         self.Tap.setObjectName("Tap")
         self.tab = QtWidgets.QWidget()
         self.tab.setObjectName("tab")
-        self.pushButton = QtWidgets.QPushButton(self.tab)
-        self.pushButton.setGeometry(QtCore.QRect(210, 120, 150, 150))
-        self.pushButton.setStyleSheet("QPushButton {\n"
-"  background-color: gray;\n"
-"\n"
-"  border-color: rgb(0, 0, 0);\n"
-"  border-width: 3px;        \n"
-"  border-style: solid;\n"
-"  border-radius: 75px;\n"
-"}")
-        self.pushButton.setText("")
-        self.pushButton.setObjectName("pushButton")
-        self.pushButton_2 = QtWidgets.QPushButton(self.tab)
-        self.pushButton_2.setGeometry(QtCore.QRect(560, 320, 200, 200))
-        self.pushButton_2.setStyleSheet("QPushButton {\n"
-"  background-color: gray;\n"
-"\n"
-"  border-color: rgb(0, 0, 0);\n"
-"  border-width: 3px;        \n"
-"  border-style: solid;\n"
-"  border-radius: 100px;\n"
-"}")
-        self.pushButton_2.setText("")
-        self.pushButton_2.setObjectName("pushButton_2")
-        self.pushButton_3 = QtWidgets.QPushButton(self.tab)
-        self.pushButton_3.setGeometry(QtCore.QRect(400, 100, 175, 175))
-        self.pushButton_3.setStyleSheet("QPushButton {\n"
-"  background-color: gray;\n"
-"\n"
-"  border-color: rgb(0, 0, 0);\n"
-"  border-width: 3px;        \n"
-"  border-style: solid;\n"
-"  border-radius: 87px;\n"
-"}")
-        self.pushButton_3.setText("")
-        self.pushButton_3.setObjectName("pushButton_3")
-        self.pushButton_4 = QtWidgets.QPushButton(self.tab)
-        self.pushButton_4.setGeometry(QtCore.QRect(90, 300, 200, 200))
-        self.pushButton_4.setStyleSheet("QPushButton {\n"
-"  background-color: gray;\n"
+        self.piano2 = QtWidgets.QPushButton(self.tab)
+        self.piano2.setGeometry(QtCore.QRect(100, 20, 121, 501))
+        self.piano2.setStyleSheet("QPushButton {\n"
+"  background-color: white;\n"
 "  color: rgb(0, 0, 0);\n"
 "  border-width: 3px;        \n"
 "  border-style: solid;\n"
-"  border-radius: 100px;\n"
+"  border-radius: 30px;\n"
 "}")
-        self.pushButton_4.setText("")
-        self.pushButton_4.setObjectName("pushButton_4")
-        self.pushButton_5 = QtWidgets.QPushButton(self.tab)
-        self.pushButton_5.setGeometry(QtCore.QRect(600, 40, 140, 140))
-        self.pushButton_5.setStyleSheet("QPushButton {\n"
-"  background-color: gold;\n"
+        self.piano2.setText("")
+        self.piano2.setObjectName("piano2")
+        self.piano3 = QtWidgets.QPushButton(self.tab)
+        self.piano3.setGeometry(QtCore.QRect(240, 40, 51, 291))
+        self.piano3.setStyleSheet("QPushButton {\n"
 "\n"
+"  background-color: black;\n"
 "  border-color: rgb(0, 0, 0);\n"
 "  border-width: 3px;        \n"
 "  border-style: solid;\n"
-"  border-radius: 70px;\n"
+"  border-radius: 10px;\n"
 "}")
-        self.pushButton_5.setText("")
-        self.pushButton_5.setObjectName("pushButton_5")
-        self.pushButton_6 = QtWidgets.QPushButton(self.tab)
-        self.pushButton_6.setGeometry(QtCore.QRect(320, 350, 200, 200))
-        self.pushButton_6.setStyleSheet("QPushButton {\n"
-"  background-color: gray;\n"
+        self.piano3.setText("")
+        self.piano3.setObjectName("piano3")
+        self.piano4 = QtWidgets.QPushButton(self.tab)
+        self.piano4.setGeometry(QtCore.QRect(310, 20, 121, 501))
+        self.piano4.setStyleSheet("QPushButton {\n"
+"  background-color: white;\n"
+"  color: rgb(0, 0, 0);\n"
+"  border-width: 3px;        \n"
+"  border-style: solid;\n"
+"  border-radius: 30px;\n"
+"}")
+        self.piano4.setText("")
+        self.piano4.setObjectName("piano4")
+        self.piano5 = QtWidgets.QPushButton(self.tab)
+        self.piano5.setGeometry(QtCore.QRect(450, 40, 51, 291))
+        self.piano5.setStyleSheet("QPushButton {\n"
 "\n"
+"  background-color: black;\n"
 "  border-color: rgb(0, 0, 0);\n"
 "  border-width: 3px;        \n"
 "  border-style: solid;\n"
-"  border-radius: 100px;\n"
+"  border-radius: 10px;\n"
 "}")
-        self.pushButton_6.setText("")
-        self.pushButton_6.setObjectName("pushButton_6")
-        self.pushButton_8 = QtWidgets.QPushButton(self.tab)
-        self.pushButton_8.setGeometry(QtCore.QRect(20, 220, 100, 100))
-        self.pushButton_8.setStyleSheet("QPushButton {\n"
-"  background-color: gold;\n"
+        self.piano5.setText("")
+        self.piano5.setObjectName("piano5")
+        self.piano6 = QtWidgets.QPushButton(self.tab)
+        self.piano6.setGeometry(QtCore.QRect(520, 20, 111, 501))
+        self.piano6.setStyleSheet("QPushButton {\n"
+"  background-color: white;\n"
+"  color: rgb(0, 0, 0);\n"
+"  border-width: 3px;        \n"
+"  border-style: solid;\n"
+"  border-radius: 30px;\n"
+"}")
+        self.piano6.setText("")
+        self.piano6.setObjectName("piano6")
+        self.piano7 = QtWidgets.QPushButton(self.tab)
+        self.piano7.setGeometry(QtCore.QRect(650, 40, 51, 291))
+        self.piano7.setStyleSheet("QPushButton {\n"
 "\n"
+"  background-color: black;\n"
 "  border-color: rgb(0, 0, 0);\n"
 "  border-width: 3px;        \n"
 "  border-style: solid;\n"
-"  border-radius: 50px;\n"
+"  border-radius: 10px;\n"
 "}")
-        self.pushButton_8.setText("")
-        self.pushButton_8.setObjectName("pushButton_8")
-        self.pushButton_7 = QtWidgets.QPushButton(self.tab)
-        self.pushButton_7.setGeometry(QtCore.QRect(40, 50, 140, 140))
-        self.pushButton_7.setStyleSheet("QPushButton {\n"
-"  background-color: gold;\n"
+        self.piano7.setText("")
+        self.piano7.setObjectName("piano7")
+        self.piano1 = QtWidgets.QPushButton(self.tab)
+        self.piano1.setGeometry(QtCore.QRect(40, 40, 51, 291))
+        self.piano1.setStyleSheet("QPushButton {\n"
 "\n"
+"  background-color: black;\n"
 "  border-color: rgb(0, 0, 0);\n"
 "  border-width: 3px;        \n"
 "  border-style: solid;\n"
-"  border-radius: 70px;\n"
+"  border-radius: 10px;\n"
 "}")
-        self.pushButton_7.setText("")
-        self.pushButton_7.setObjectName("pushButton_7")
+        self.piano1.setText("")
+        self.piano1.setObjectName("piano1")
         self.Tap.addTab(self.tab, "")
         self.tab_2 = QtWidgets.QWidget()
         self.tab_2.setObjectName("tab_2")
@@ -309,11 +295,11 @@ class Ui_MainWindow(object):
         MainWindow.setStatusBar(self.statusbar)
 
         self.retranslateUi(MainWindow)
-        self.Tap.setCurrentIndex(0)
+        self.Tap.setCurrentIndex(1)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        self.Tap.setTabText(self.Tap.indexOf(self.tab), _translate("MainWindow", "Drums"))
-        self.Tap.setTabText(self.Tap.indexOf(self.tab_2), _translate("MainWindow", "pan flute"))
+        self.Tap.setTabText(self.Tap.indexOf(self.tab), _translate("MainWindow", "Piano"))
+        self.Tap.setTabText(self.Tap.indexOf(self.tab_2), _translate("MainWindow", "Pan Flute"))
