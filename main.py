@@ -82,15 +82,15 @@ class ApplicationWindow(QtWidgets.QMainWindow):
         elif m==7:
             self.n=Note("A~",type='whole')
         elif m==8:
-            self.n=Note("B#",type='whole')
+            self.n=Note("B",type='whole')
         elif m==9:
-            self.n=Note("B#~",type='whole')
-        elif m==10:
             self.n=Note("B##",type='whole')
-        elif m==11:
-            self.n=Note("B###",type='whole')
-        elif m==12:
+        elif m==10:
             self.n=Note("B####",type='whole')
+        elif m==11:
+            self.n=Note("B#5",type='whole')
+        elif m==12:
+            self.n=Note("B#6",type='whole')
       
 
 
