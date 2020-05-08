@@ -1,8 +1,8 @@
 import os, sys
 from p3 import Ui_MainWindow
 from PyQt5 import QtWidgets, QtGui
-from PyQt5.QtWidgets import QApplication, QWidget, QMainWindow, QTableWidget, QVBoxLayout, QTableWidgetItem
-import cv2
+# from PyQt5.QtWidgets import QApplication, QWidget, QMainWindow, QTableWidget, QVBoxLayout, QTableWidgetItem
+# import cv2
 import pylab
 import wave
 import pylab
@@ -13,6 +13,7 @@ from scipy.io import wavfile
 import numpy as np
 from glob import glob
 from numpy import asarray
+# from music import *
 import music21
 from music21 import note, stream, pitch, duration, instrument, tempo, chord
 from music21.note import Note, Rest
@@ -38,111 +39,88 @@ class ApplicationWindow(QtWidgets.QMainWindow):
         self.ui.piano7.clicked.connect(lambda: self.PlayPiano(7))
         
     
+        self.ui.p1.clicked.connect(lambda: self.PlayFlute(1))
+        self.ui.p2.clicked.connect(lambda: self.PlayFlute(2))
+        self.ui.p3.clicked.connect(lambda: self.PlayFlute(3))
+        self.ui.p4.clicked.connect(lambda: self.PlayFlute(4))
+        self.ui.p5.clicked.connect(lambda: self.PlayFlute(5))
+        self.ui.p6.clicked.connect(lambda: self.PlayFlute(6))
+        self.ui.p7.clicked.connect(lambda: self.PlayFlute(7))
+        self.ui.p8.clicked.connect(lambda: self.PlayFlute(8))
+        self.ui.p9.clicked.connect(lambda: self.PlayFlute(9))
+        self.ui.p10.clicked.connect(lambda: self.PlayFlute(10))
+        self.ui.p11.clicked.connect(lambda: self.PlayFlute(11))
+        self.ui.p12.clicked.connect(lambda: self.PlayFlute(12))
+       
+
 
     
     def PlayPiano(self, n):
 
         if( n==1):
+            p = Note("C----", type='whole')
+        elif( n==2):
+            p = Note("D--", type='whole')
+        elif( n==3):
+            p = Note("F--", type='whole')
+        elif( n==4):
+            p= Note("G--", type='whole')
+        elif( n==5):
+            p = Note("A--", type='whole')
+        elif( n==6):
+            p = Note("B#4", type='whole')
+        elif( n==7):
+            p= Note("B#6", type='whole')
 
-            n = Note("C----", type='whole')
+        PianoPart= stream.Part()
+        PianoPart.insert(0, instrument.Piano())
 
-            PianoPart = stream.Part()
-            PianoPart.insert(0, instrument.Piano())
+        pianoMeasure = stream.Measure()
+        pianoMeasure.append(p)
+        PianoPart.append(pianoMeasure)
 
-            pianoMeasure = stream.Measure()
-            pianoMeasure.append(n)
-            PianoPart.append(pianoMeasure)
-
-
-            sp = midi.realtime.StreamPlayer(PianoPart)
-            sp.play()
-
-        if( n==2):
-
-            n = Note("D--", type='whole')
-
-            PianoPart = stream.Part()
-            PianoPart.insert(0, instrument.Piano())
-
-            pianoMeasure = stream.Measure()
-            pianoMeasure.append(n)
-            PianoPart.append(pianoMeasure)
-
-
-            sp = midi.realtime.StreamPlayer(PianoPart)
-            sp.play()
-
-        if( n==3):
-
-            n = Note("F--", type='whole')
-
-            PianoPart = stream.Part()
-            PianoPart.insert(0, instrument.Piano())
-
-            pianoMeasure = stream.Measure()
-            pianoMeasure.append(n)
-            PianoPart.append(pianoMeasure)
-
-            sp = midi.realtime.StreamPlayer(PianoPart)
-            sp.play()
-   
-        if( n==4):
-
-            n = Note("G--", type='whole')
-
-            PianoPart = stream.Part()
-            PianoPart.insert(0, instrument.Piano())
-
-            pianoMeasure = stream.Measure()
-            pianoMeasure.append(n)
-            PianoPart.append(pianoMeasure)
-
-            sp = midi.realtime.StreamPlayer(PianoPart)
-            sp.play()
+        sp = midi.realtime.StreamPlayer(PianoPart)
+        sp.play()
 
 
-        if( n==5):
+    def PlayFlute(self,m):
+        if m==1:
+            f = Note("A----", type='whole')
+        elif m==2:
+            f =Note("A---",type='whole')
+        elif m==3:
+            f=Note("A--",type='whole')
+        elif m==4:
+            f=Note("A-`",type='whole')
+        elif m==5:
+            f=Note("A-",type='whole')
+        elif m==6:
+            f=Note("A`",type='whole')
+        elif m==7:
+            f=Note("A~",type='whole')
+        elif m==8:
+            f=Note("B",type='whole')
+        elif m==9:
+            f=Note("B##",type='whole')
+        elif m==10:
+            f=Note("B####",type='whole')
+        elif m==11:
+            f=Note("B#5",type='whole')
+        elif m==12:
+            f=Note("B#6",type='whole')
+      
 
-            n = Note("A--", type='whole')
 
-            PianoPart = stream.Part()
-            PianoPart.insert(0, instrument.Piano())
+        FlutePart = stream.Part()
+        FlutePart.insert(0, instrument.PanFlute())
 
-            pianoMeasure = stream.Measure()
-            pianoMeasure.append(n)
-            PianoPart.append(pianoMeasure)
+        fluteMeasure = stream.Measure()
+        fluteMeasure.append(f)
+        FlutePart.append(fluteMeasure)
 
-            sp = midi.realtime.StreamPlayer(PianoPart)
-            sp.play()
+        sp = midi.realtime.StreamPlayer(FlutePart)
+        sp.play()
 
-        if( n==6):
-
-            n = Note("B#4", type='whole')
-
-            PianoPart = stream.Part()
-            PianoPart.insert(0, instrument.Piano())
-
-            pianoMeasure = stream.Measure()
-            pianoMeasure.append(n)
-            PianoPart.append(pianoMeasure)
-
-            sp = midi.realtime.StreamPlayer(PianoPart)
-            sp.play()
-
-
-        if( n==7):
-
-            n = Note("B#6", type='whole')
-
-            PianoPart= stream.Part()
-            PianoPart.insert(0, instrument.Piano())
-
-            pianoMeasure = stream.Measure()
-            pianoMeasure.append(n)
-            PianoPart.append(pianoMeasure)
-
-            sp = midi.realtime.StreamPlayer(PianoPart)
-            sp.play()
 
 
   
