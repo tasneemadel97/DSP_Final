@@ -1,19 +1,6 @@
 import os, sys
 from p3 import Ui_MainWindow
 from PyQt5 import QtWidgets, QtGui
-# from PyQt5.QtWidgets import QApplication, QWidget, QMainWindow, QTableWidget, QVBoxLayout, QTableWidgetItem
-# import cv2
-import pylab
-import wave
-import pylab
-import matplotlib.pyplot as pylab
-import scipy
-from scipy import signal
-from scipy.io import wavfile
-import numpy as np
-from glob import glob
-from numpy import asarray
-# from music import *
 import music21
 from music21 import note, stream, pitch, duration, instrument, tempo, chord
 from music21.note import Note, Rest
