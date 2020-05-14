@@ -6,179 +6,204 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>845</width>
-    <height>665</height>
+    <width>804</width>
+    <height>658</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <layout class="QHBoxLayout" name="horizontalLayout">
-    <item>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
      <widget class="QTabWidget" name="Tap">
       <property name="styleSheet">
        <string notr="true">round button</string>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
-        <string>Piano</string>
+        <string>Drums</string>
        </attribute>
-       <widget class="QPushButton" name="piano2">
+       <widget class="QPushButton" name="pushButton">
         <property name="geometry">
          <rect>
-          <x>100</x>
-          <y>20</y>
-          <width>121</width>
-          <height>501</height>
+          <x>210</x>
+          <y>120</y>
+          <width>150</width>
+          <height>150</height>
          </rect>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton {
-  background-color: white;
-  color: rgb(0, 0, 0);
-  border-width: 3px;        
-  border-style: solid;
-  border-radius: 30px;
-}</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="piano3">
-        <property name="geometry">
-         <rect>
-          <x>240</x>
-          <y>40</y>
-          <width>51</width>
-          <height>291</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton {
+  background-color: gray;
 
-  background-color: black;
   border-color: rgb(0, 0, 0);
   border-width: 3px;        
   border-style: solid;
-  border-radius: 10px;
+  border-radius: 75px;
 }</string>
         </property>
         <property name="text">
          <string/>
         </property>
        </widget>
-       <widget class="QPushButton" name="piano4">
+       <widget class="QPushButton" name="pushButton_2">
         <property name="geometry">
          <rect>
-          <x>310</x>
-          <y>20</y>
-          <width>121</width>
-          <height>501</height>
+          <x>560</x>
+          <y>320</y>
+          <width>200</width>
+          <height>200</height>
          </rect>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton {
-  background-color: white;
-  color: rgb(0, 0, 0);
-  border-width: 3px;        
-  border-style: solid;
-  border-radius: 30px;
-}</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="piano5">
-        <property name="geometry">
-         <rect>
-          <x>450</x>
-          <y>40</y>
-          <width>51</width>
-          <height>291</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton {
+  background-color: gray;
 
-  background-color: black;
   border-color: rgb(0, 0, 0);
   border-width: 3px;        
   border-style: solid;
-  border-radius: 10px;
+  border-radius: 100px;
 }</string>
         </property>
         <property name="text">
          <string/>
         </property>
        </widget>
-       <widget class="QPushButton" name="piano6">
+       <widget class="QPushButton" name="pushButton_3">
         <property name="geometry">
          <rect>
-          <x>520</x>
-          <y>20</y>
-          <width>111</width>
-          <height>501</height>
+          <x>400</x>
+          <y>100</y>
+          <width>175</width>
+          <height>175</height>
          </rect>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton {
-  background-color: white;
-  color: rgb(0, 0, 0);
-  border-width: 3px;        
-  border-style: solid;
-  border-radius: 30px;
-}</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="piano7">
-        <property name="geometry">
-         <rect>
-          <x>650</x>
-          <y>40</y>
-          <width>51</width>
-          <height>291</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton {
+  background-color: gray;
 
-  background-color: black;
   border-color: rgb(0, 0, 0);
   border-width: 3px;        
   border-style: solid;
-  border-radius: 10px;
+  border-radius: 87px;
 }</string>
         </property>
         <property name="text">
          <string/>
         </property>
        </widget>
-       <widget class="QPushButton" name="piano1">
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="geometry">
+         <rect>
+          <x>90</x>
+          <y>300</y>
+          <width>200</width>
+          <height>200</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+  background-color: gray;
+  color: rgb(0, 0, 0);
+  border-width: 3px;        
+  border-style: solid;
+  border-radius: 100px;
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_5">
+        <property name="geometry">
+         <rect>
+          <x>600</x>
+          <y>40</y>
+          <width>140</width>
+          <height>140</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+  background-color: gold;
+
+  border-color: rgb(0, 0, 0);
+  border-width: 3px;        
+  border-style: solid;
+  border-radius: 70px;
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_6">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>350</y>
+          <width>200</width>
+          <height>200</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+  background-color: gray;
+
+  border-color: rgb(0, 0, 0);
+  border-width: 3px;        
+  border-style: solid;
+  border-radius: 100px;
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_8">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>220</y>
+          <width>100</width>
+          <height>100</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton {
+  background-color: gold;
+
+  border-color: rgb(0, 0, 0);
+  border-width: 3px;        
+  border-style: solid;
+  border-radius: 50px;
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_7">
         <property name="geometry">
          <rect>
           <x>40</x>
-          <y>40</y>
-          <width>51</width>
-          <height>291</height>
+          <y>50</y>
+          <width>140</width>
+          <height>140</height>
          </rect>
         </property>
         <property name="styleSheet">
          <string notr="true">QPushButton {
+  background-color: gold;
 
-  background-color: black;
   border-color: rgb(0, 0, 0);
   border-width: 3px;        
   border-style: solid;
-  border-radius: 10px;
+  border-radius: 70px;
 }</string>
         </property>
         <property name="text">
@@ -188,7 +213,7 @@
       </widget>
       <widget class="QWidget" name="tab_2">
        <attribute name="title">
-        <string>Pan Flute</string>
+        <string>pan flute</string>
        </attribute>
        <widget class="QPushButton" name="p1">
         <property name="geometry">
@@ -196,7 +221,7 @@
           <x>20</x>
           <y>40</y>
           <width>50</width>
-          <height>491</height>
+          <height>451</height>
          </rect>
         </property>
         <property name="styleSheet">
@@ -219,7 +244,7 @@
           <x>70</x>
           <y>40</y>
           <width>50</width>
-          <height>461</height>
+          <height>411</height>
          </rect>
         </property>
         <property name="styleSheet">
@@ -242,7 +267,7 @@
           <x>120</x>
           <y>40</y>
           <width>50</width>
-          <height>421</height>
+          <height>381</height>
          </rect>
         </property>
         <property name="styleSheet">
@@ -265,7 +290,7 @@
           <x>170</x>
           <y>40</y>
           <width>50</width>
-          <height>381</height>
+          <height>351</height>
          </rect>
         </property>
         <property name="styleSheet">
@@ -288,7 +313,7 @@
           <x>220</x>
           <y>40</y>
           <width>50</width>
-          <height>341</height>
+          <height>321</height>
          </rect>
         </property>
         <property name="styleSheet">
@@ -311,7 +336,7 @@
           <x>270</x>
           <y>40</y>
           <width>50</width>
-          <height>311</height>
+          <height>281</height>
          </rect>
         </property>
         <property name="styleSheet">
@@ -334,7 +359,7 @@
           <x>320</x>
           <y>40</y>
           <width>50</width>
-          <height>281</height>
+          <height>251</height>
          </rect>
         </property>
         <property name="styleSheet">
@@ -357,7 +382,7 @@
           <x>370</x>
           <y>40</y>
           <width>50</width>
-          <height>261</height>
+          <height>231</height>
          </rect>
         </property>
         <property name="styleSheet">
@@ -380,7 +405,7 @@
           <x>420</x>
           <y>40</y>
           <width>50</width>
-          <height>241</height>
+          <height>211</height>
          </rect>
         </property>
         <property name="styleSheet">
@@ -403,7 +428,7 @@
           <x>470</x>
           <y>40</y>
           <width>50</width>
-          <height>221</height>
+          <height>191</height>
          </rect>
         </property>
         <property name="styleSheet">
@@ -426,7 +451,7 @@
           <x>520</x>
           <y>40</y>
           <width>50</width>
-          <height>201</height>
+          <height>171</height>
          </rect>
         </property>
         <property name="styleSheet">
@@ -449,76 +474,7 @@
           <x>570</x>
           <y>40</y>
           <width>50</width>
-          <height>181</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton {
-  background-color: gold;
-  color: rgb(0, 0, 0);
-
-  border-width: 3px;        
-  border-style: solid;
-  border-radius: 20px;
-}</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="p13">
-        <property name="geometry">
-         <rect>
-          <x>620</x>
-          <y>40</y>
-          <width>50</width>
-          <height>161</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton {
-  background-color: gold;
-  color: rgb(0, 0, 0);
-
-  border-width: 3px;        
-  border-style: solid;
-  border-radius: 20px;
-}</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="p14">
-        <property name="geometry">
-         <rect>
-          <x>670</x>
-          <y>40</y>
-          <width>50</width>
-          <height>131</height>
-         </rect>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">QPushButton {
-  background-color: gold;
-  color: rgb(0, 0, 0);
-
-  border-width: 3px;        
-  border-style: solid;
-  border-radius: 20px;
-}</string>
-        </property>
-        <property name="text">
-         <string/>
-        </property>
-       </widget>
-       <widget class="QPushButton" name="p15">
-        <property name="geometry">
-         <rect>
-          <x>720</x>
-          <y>40</y>
-          <width>50</width>
-          <height>111</height>
+          <height>151</height>
          </rect>
         </property>
         <property name="styleSheet">
