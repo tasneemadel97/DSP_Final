@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'p3.ui'
+# Form implementation generated from reading ui file 'P3.ui'
 #
 # Created by: PyQt5 UI code generator 5.13.0
 #
@@ -295,7 +295,7 @@ class Ui_MainWindow(object):
         MainWindow.setStatusBar(self.statusbar)
 
         self.retranslateUi(MainWindow)
-        self.Tap.setCurrentIndex(1)
+        self.Tap.setCurrentIndex(0)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):

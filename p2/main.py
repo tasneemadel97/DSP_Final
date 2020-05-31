@@ -17,7 +17,7 @@ class ApplicationWindow(QtWidgets.QMainWindow):
     def Browse(self):
         options = QtWidgets.QFileDialog.Options()
         options |= QtWidgets.QFileDialog.DontUseNativeDialog
-        fileName, _ = QtWidgets.QFileDialog.getOpenFileName(self,"QFileDialog.getOpenFileName()", "","Images (*.png *.xpm *.jpg *.jpeg)", options=options)
+        fileName, _ = QtWidgets.QFileDialog.getOpenFileName(self,"Browse for Image", "","Images (*.png *.xpm *.jpg *.jpeg)", options=options)
         if fileName:
                 self.file=fileName
                 self.Decode()
