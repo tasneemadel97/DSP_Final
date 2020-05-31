@@ -4,7 +4,7 @@
 
 1. ### Hendwan Alhussein Abozide
 2. ### Rawda Ahmed Romaih
-3. ### Rokaya Mohamed ElNagar
+3. ### Rokaya Mohamed Ahmed
 4. ### Tasneem Adel
 
 
@@ -39,6 +39,20 @@
 2. ### Click on the Pan flute buttons in the **second tab** to hear different sounds.
 
 ## _Problem 5_
+
+### **Point A :**
+
+* ### We simulated the density and velocity of a cough in th **coronal plane**.
+
+### _Sample Image_:
+
+* ### The left image simualtes the density of the cough. At the center (near the mouth) has the **largest density** and the density gradually decreases as the distance from the mouth increases.
+
+* ### The right image simulates the velocity of the cough.
+ 
+  ![Eighth picture](Images/Denisty_and_Velocity_of_Cough.png)
+
+
 
 ### **Point B :**
 

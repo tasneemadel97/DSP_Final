@@ -1,0 +1,140 @@
+2020-05-31 10:22:34,795 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:22:34,796 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:22:35,906 - DEBUG - Loading Phantom snapshot: data/disc_00030.h5
+2020-05-31 10:22:36,177 - DEBUG - Visualizing "density" on snap: disc_00030.h5
+2020-05-31 10:22:37,858 - DEBUG - Visualizing "velocity" on snap: disc_00030.h5
+2020-05-31 10:23:37,336 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:23:37,337 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:23:38,386 - DEBUG - Loading Phantom snapshot: data/disc_00030.h5
+2020-05-31 10:23:38,636 - DEBUG - Visualizing "density" on snap: disc_00030.h5
+2020-05-31 10:23:40,230 - DEBUG - Visualizing "velocity" on snap: disc_00030.h5
+2020-05-31 10:26:43,394 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:26:43,395 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:26:44,490 - DEBUG - Loading Phantom snapshot: data/disc_00025.h5
+2020-05-31 10:26:44,736 - DEBUG - Visualizing "density" on snap: disc_00025.h5
+2020-05-31 10:26:46,254 - DEBUG - Visualizing "velocity" on snap: disc_00025.h5
+2020-05-31 10:27:07,988 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:27:07,989 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:27:09,063 - DEBUG - Loading Phantom snapshot: data/disc_00016.h5
+2020-05-31 10:27:09,307 - DEBUG - Visualizing "density" on snap: disc_00016.h5
+2020-05-31 10:27:10,857 - DEBUG - Visualizing "velocity" on snap: disc_00016.h5
+2020-05-31 10:27:45,091 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:27:45,091 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:27:46,208 - DEBUG - Loading Phantom snapshot: data/disc_00009.h5
+2020-05-31 10:27:46,516 - DEBUG - Visualizing "density" on snap: disc_00009.h5
+2020-05-31 10:27:48,016 - DEBUG - Visualizing "velocity" on snap: disc_00009.h5
+2020-05-31 10:28:12,514 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:28:12,515 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:28:13,572 - DEBUG - Loading Phantom snapshot: data/disc_00000.h5
+2020-05-31 10:28:13,821 - DEBUG - Visualizing "density" on snap: disc_00000.h5
+2020-05-31 10:28:15,443 - DEBUG - Visualizing "velocity" on snap: disc_00000.h5
+2020-05-31 10:28:49,492 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:28:49,492 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:28:50,599 - DEBUG - Loading Phantom snapshot: data/disc_00000.h5
+2020-05-31 10:28:50,851 - DEBUG - Visualizing "density" on snap: disc_00000.h5
+2020-05-31 10:28:52,464 - DEBUG - Visualizing "velocity" on snap: disc_00000.h5
+2020-05-31 10:29:14,630 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:29:14,631 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:29:15,697 - DEBUG - Loading Phantom snapshot: data/disc_00001.h5
+2020-05-31 10:29:15,957 - DEBUG - Visualizing "density" on snap: disc_00001.h5
+2020-05-31 10:29:17,609 - DEBUG - Visualizing "velocity" on snap: disc_00001.h5
+2020-05-31 10:29:24,756 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:29:24,756 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:29:25,861 - DEBUG - Loading Phantom snapshot: data/disc_00002.h5
+2020-05-31 10:29:26,106 - DEBUG - Visualizing "density" on snap: disc_00002.h5
+2020-05-31 10:29:27,655 - DEBUG - Visualizing "velocity" on snap: disc_00002.h5
+2020-05-31 10:29:36,235 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:29:36,236 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:29:37,332 - DEBUG - Loading Phantom snapshot: data/disc_00003.h5
+2020-05-31 10:29:37,582 - DEBUG - Visualizing "density" on snap: disc_00003.h5
+2020-05-31 10:29:39,112 - DEBUG - Visualizing "velocity" on snap: disc_00003.h5
+2020-05-31 10:29:55,137 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:29:55,137 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:29:56,215 - DEBUG - Loading Phantom snapshot: data/disc_00004.h5
+2020-05-31 10:30:15,048 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:30:15,049 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:30:16,151 - DEBUG - Loading Phantom snapshot: data/disc_00005.h5
+2020-05-31 10:30:24,551 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:30:24,551 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:30:25,634 - DEBUG - Loading Phantom snapshot: data/disc_00006.h5
+2020-05-31 10:30:33,237 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:30:33,237 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:30:34,387 - DEBUG - Loading Phantom snapshot: data/disc_00007.h5
+2020-05-31 10:30:43,322 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:30:43,322 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:30:44,418 - DEBUG - Loading Phantom snapshot: data/disc_00008.h5
+2020-05-31 10:30:52,342 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:30:52,343 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:30:53,479 - DEBUG - Loading Phantom snapshot: data/disc_00009.h5
+2020-05-31 10:31:09,368 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:31:09,369 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:31:10,437 - DEBUG - Loading Phantom snapshot: data/disc_00010.h5
+2020-05-31 10:31:20,592 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:31:20,593 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:31:21,689 - DEBUG - Loading Phantom snapshot: data/disc_00011.h5
+2020-05-31 10:31:30,674 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:31:30,674 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:31:31,744 - DEBUG - Loading Phantom snapshot: data/disc_00012.h5
+2020-05-31 10:31:39,417 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:31:39,417 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:31:40,494 - DEBUG - Loading Phantom snapshot: data/disc_00013.h5
+2020-05-31 10:31:47,733 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:31:47,733 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:31:48,858 - DEBUG - Loading Phantom snapshot: data/disc_00014.h5
+2020-05-31 10:31:57,100 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:31:57,100 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:31:58,203 - DEBUG - Loading Phantom snapshot: data/disc_00015.h5
+2020-05-31 10:32:07,500 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:32:07,500 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:32:08,561 - DEBUG - Loading Phantom snapshot: data/disc_00018.h5
+2020-05-31 10:32:21,085 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:32:21,085 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:32:22,182 - DEBUG - Loading Phantom snapshot: data/disc_00024.h5
+2020-05-31 10:32:30,589 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:32:30,589 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:32:31,685 - DEBUG - Loading Phantom snapshot: data/disc_00025.h5
+2020-05-31 10:32:41,108 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:32:41,109 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:32:42,222 - DEBUG - Loading Phantom snapshot: data/disc_00028.h5
+2020-05-31 10:32:54,934 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:32:54,935 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:32:55,991 - DEBUG - Loading Phantom snapshot: data/disc_00029.h5
+2020-05-31 10:33:06,981 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:33:06,982 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:33:08,049 - DEBUG - Loading Phantom snapshot: data/disc_00030.h5
+2020-05-31 10:33:50,700 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:33:50,700 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:33:51,779 - DEBUG - Loading Phantom snapshot: disc-dust.discparams
+2020-05-31 10:34:00,511 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:34:00,512 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:34:01,576 - DEBUG - Loading Phantom snapshot: data/disc-dust.discparams
+2020-05-31 10:34:17,536 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:34:17,537 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:34:18,602 - DEBUG - Loading Phantom snapshot: data/disc_00000.h5
+2020-05-31 10:34:18,852 - DEBUG - Visualizing "density" on snap: disc_00000.h5
+2020-05-31 10:34:20,517 - DEBUG - Visualizing "velocity" on snap: disc_00000.h5
+2020-05-31 10:34:42,923 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:34:42,924 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:34:43,982 - DEBUG - Loading Phantom snapshot: data/disc_00000.h5
+2020-05-31 10:34:44,232 - DEBUG - Visualizing "density" on snap: disc_00000.h5
+2020-05-31 10:34:45,823 - DEBUG - Visualizing "velocity" on snap: disc_00000.h5
+2020-05-31 10:35:03,531 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:35:03,531 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:35:04,596 - DEBUG - Loading Phantom snapshot: data/disc_00000.h5
+2020-05-31 10:35:04,843 - DEBUG - Visualizing "density" on snap: disc_00000.h5
+2020-05-31 10:35:06,405 - DEBUG - Visualizing "velocity" on snap: disc_00000.h5
+2020-05-31 10:41:28,256 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:41:28,257 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:41:29,368 - DEBUG - Loading Phantom snapshot: data/disc_00000.h5
+2020-05-31 10:41:29,658 - DEBUG - Visualizing "density" on snap: disc_00000.h5
+2020-05-31 10:41:31,309 - DEBUG - Visualizing "velocity" on snap: disc_00000.h5
+2020-05-31 10:47:26,798 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:47:26,799 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:47:28,950 - DEBUG - Loading Phantom snapshot: data/disc_00000.h5
+2020-05-31 10:47:29,368 - DEBUG - Visualizing "density" on snap: disc_00000.h5
+2020-05-31 10:47:31,800 - DEBUG - Visualizing "velocity" on snap: disc_00000.h5
+2020-05-31 10:48:09,469 - DEBUG - Plonk v0.5.0 on Python 3.7.4
+2020-05-31 10:48:09,484 - DEBUG - Windows version: 10, AMD64
+2020-05-31 10:48:14,644 - DEBUG - Loading Phantom snapshot: data/disc_00000.h5
+2020-05-31 10:48:14,994 - DEBUG - Visualizing "density" on snap: disc_00000.h5
+2020-05-31 10:48:16,764 - DEBUG - Visualizing "velocity" on snap: disc_00000.h5
